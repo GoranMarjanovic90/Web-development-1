@@ -123,3 +123,28 @@ img, video {
         grid-template-columns: 1fr;
     }
 }
+
+form fieldset {
+    background-color: #fff0ee;
+    border: 1px solid #f08080;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form label {
+    font-weight: bold;
+    margin-top: 15px;
+    display: block;
+}
