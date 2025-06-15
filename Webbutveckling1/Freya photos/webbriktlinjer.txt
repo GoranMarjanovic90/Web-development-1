@@ -1,0 +1,9 @@
+Jag har arbetat med följande webbriktlinjer:
+
+1. 3.1.1 (A) – Jag anger sidans språk i HTML med <html lang="sv"> på varje sida.
+2. 1.1.1 (A) – Alla bilder har alt-texter som beskriver innehållet för skärmläsare.
+3. 1.4.3 (AA) – Jag har valt färger med god kontrast mellan text och bakgrund.
+4. 2.4.2 (A) – Alla sidor har tydliga och beskrivande <title>-taggar.
+5. 2.4.4 (A) – Länkarna är tydliga och beskrivande, t.ex. “Om oss” istället för “Klicka här”.
+
+Jag har också följt responsiv design med media queries och flex/grid för att webbplatsen ska fungera på mobil. Detta följer riktlinje 1.4.10 (AA).
