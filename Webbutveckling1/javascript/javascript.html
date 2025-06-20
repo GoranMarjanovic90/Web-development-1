@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="c-uppgift.js" defer></script>
+</head>
+<body>
+
+    <h1>Personuppgifter</h1>
+    <p>Fyll i namn och ålder i formuläret nedan</p>
+
+    <div style="background-color: #e6f0ff; padding: 25px; border-radius: 10px; width: 350px; box-shadow: 2px 2px 8px rgba(0,0,0,0.2);">
+        <form>
+            <label for="fname">Förnamn:</label><br>
+            <input type="text" id="fname" placeholder="Förnamn"><br><br>
+
+            <label for="lname">Efternamn:</label><br>
+            <input type="text" id="lname" placeholder="Efternamn"><br><br>
+
+            <label for="age">Ålder:</label><br>
+            <input type="number" id="age" placeholder="Ålder"><br><br>
+
+            <button type="button" onclick="myFunction()">Klicka</button>
+        </form>
+
+        <p id="demo"></p>
+    </div>
+
+</body>
+</html>
